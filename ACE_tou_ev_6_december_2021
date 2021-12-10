@@ -1,0 +1,43 @@
+{
+    "name": "ACE_tou_ev_6_decemeber_2021",
+    "effective": "2021-3-12",
+    "link": "https://www.atlanticcityelectric.com/SiteCollectionDocuments/NJ%20Tariff%20Section%20IV%20Eff.%2011.01.21%20NGC-SBC.pdf",
+    "schedule": [
+        {
+            "id": "Summer",
+            "effective_start": "06-01",
+            "effective_end": "09-30",
+            "dow_mask": "WEEKDAYS",
+            "times": [0, 8, 12, 18, 23],
+            "tariffs": [0.109,0.109,0.109,0.109,0.109],
+            "demand_charge": 11.59
+        },
+        {
+            "id": "Summer-Weekend",
+            "effective_start": "06-01",
+            "effective_end": "09-30",
+            "dow_mask": "WEEKENDS",
+            "times": [0],
+            "tariffs": [0.109],
+            "demand_charge": 11.59
+        },
+        {
+            "id": "Winter-Weekday",
+            "effective_start": "10-01",
+            "effective_end": "05-31",
+            "dow_mask": "WEEKDAYS",
+            "times": [0, 8, 12, 18, 23],
+            "tariffs": [0.109,0.109,0.109,0.109,0.109],
+            "demand_charge": 11.59
+        },
+        {
+            "id": "Winter-Weekend",
+            "effective_start": "10-01",
+            "effective_end": "05-31",
+            "dow_mask": "WEEKENDS",
+            "times": [0],
+            "tariffs": [0.109],
+            "demand_charge": 11.59
+        }
+    ]
+}
