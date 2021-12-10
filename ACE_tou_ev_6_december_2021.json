@@ -4,7 +4,7 @@
     "link": "https://www.atlanticcityelectric.com/SiteCollectionDocuments/NJ%20Tariff%20Section%20IV%20Eff.%2011.01.21%20NGC-SBC.pdf",
     "schedule": [
         {
-            "id": "Summer",
+            "id": "Summer-Weekday",
             "effective_start": "06-01",
             "effective_end": "09-30",
             "dow_mask": "WEEKDAYS",
